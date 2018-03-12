@@ -1,0 +1,97 @@
+.adcon{
+	width: 1100px;
+	margin: 20px auto;
+	border: 1px solid #eee;
+}
+.adcon>h3{
+	background-color: #f9f9f9;
+	font-size: 15px;
+	line-height: 40px;
+	padding: 0 20px;
+	font-weight: 500;
+	border-bottom: 1px solid #eee;
+}
+.adcon>.content{
+	padding: 30px;
+
+}
+.adcon>.content>h4{
+	padding: 12px 0;
+	font-size: 18px;
+	color: #666;
+}
+.adcon>.content>p{
+	font-size:12px;
+	color: #888;
+
+}
+.adcon>.content>div{
+	margin: 50px auto;
+	padding: 40px;
+	border: 1px dashed #eee;
+	width: 800px;
+}
+
+.adcon>.content>.imgc>a{
+	width: 700px;
+	margin: 0 auto;
+	display: block;
+}
+.adcon>.content>div>p{
+	line-height: 40px;
+	font-size: 16px;
+	color: #666;
+}
+.adcon>table{
+	border-collapse: collapse;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	margin: 40px auto;
+	color: #666;
+	font-size: 12px;
+	width: 90%;
+}
+.adcon>table th{
+	padding: 10px 10px;
+	border-bottom: 1px solid #eee;
+}
+.adcon>table td{
+	padding: 15px 10px;
+	text-align: center;
+	background: url(../img/line.png) left bottom repeat-x;
+}
+.adcon>table td a:hover{
+	color: #ff6fa0;
+	text-decoration: underline;
+}
+
+
+/* 正文翻页 */
+.con_foot{
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+	clear: both;
+}
+.con_foot a{
+	color: #A9A8B9;
+	background-color: #FFFFFF;
+	font-size: 11px;
+	line-height: 38px;
+	height: 38px;
+	width: 38px;
+	display: inline-block;
+	margin-right: 6px;
+	border: 1px solid #E9E9E9;
+	border-radius: 4px;
+
+}
+.con_foot a:hover{
+	border:0;
+	background-color: #FF6FA0;
+	height: 39px;
+	width: 39px;
+	color: #33331C;
+}

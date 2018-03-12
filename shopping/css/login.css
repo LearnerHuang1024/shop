@@ -1,0 +1,81 @@
+.login{
+	margin:90px auto;
+	width:1100px;
+	overflow: hidden;
+}
+.login>.left{
+	float:left;
+	width:460px;
+	margin:0 30px;
+}
+.login>.left>.tt{
+	width:72px;
+	margin:0 auto;
+}
+.login>.left>.tt>span{
+	text-align:center;
+	font-size:14px;
+	font-weight:900;
+	color: #666;
+	display: block;
+	margin-top: 5px;
+}
+.login>.left>input{
+	width: 250px;
+	height: 45px;
+	border: 1px solid #eee;
+	outline: none;
+	padding-left: 30px;
+	font-size: 13px;
+	margin: 15px auto;
+	display: block;
+	border-top: 1px solid #bbb;
+	
+}
+.login>.left>#userName{
+	background: url(../img/icon-user.png)no-repeat 8px center;
+}
+.login>.left>#password{
+	background: url(../img/icon-setting.png)no-repeat 8px center;
+}
+.login>.left>p{
+	width: 280px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.login>.left>p>button{
+	height: 35px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	font-size: 12px;
+}
+.login>.left>p>#freeReg{
+	float: left;
+	color: #606060;
+
+}
+.login>.left>p>#login1{
+	float: right;
+	color: white;
+	border: 1px solid #0082be;
+	background-color: #00a3ef;
+}
+.login>.left>p>#login1:hover{
+	background-color: #0090e1;
+}
+
+.login>.left>p>i{
+	float: right;
+	font-size: 12px;
+	color: #666;
+	line-height: 35px;
+	margin-right: 10px;
+	font-style: normal;
+}
+.login>.right{
+	float: right;
+}
+.login>.right>img{
+	padding:10px 50px 20px 50px;
+	border-left: 1px solid #eee;
+
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>非尚列表页面</title>
+	<link rel="stylesheet" type="text/css" href="css/fixed.css">
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+</head>
+<body>
+	<!-- 网页登录注册部分 -->
+	<div class="title_bac">
+		<div class="title">
+			<p>
+				<i>欢迎光临非尚!</i>
+				<span id="login"><a href="login.html">登录</a></span>
+				<em>|</em>
+				<span id="reg"><a href="reg.html">注册</a></span>
+			</p>
+			<ul>
+				<li><a href="#">会员中心</a></li>
+				<li><a href="ad.html">非尚公告</a></li>
+				<li><a href="#">收藏夹</a></li>
+				<li><a href="aboutUs.html">网站相关</a></li>
+				<li><a href="#">新品上架</a></li>
+				<li><a href="#">断货列表</a></li>
+				<li><a href="#">数据包下载</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 网页头部搜索查询 -->
+	<div class="head">
+		<a href="index1.html"><img src="img/logo-20170210.png" class="logo"></a>
+		<div class="find">
+			<input type="text" id="findGoods">
+			<a id="search"></a>
+			<ul class="down" id="downs">
+				<!-- <li>wisds</li>
+				<li>wisds</li> -->
+			</ul>
+		</div>
+		
+		
+		<div class="cart">
+			<a href="cart.html">购物车( <span>0</span> )件</a>
+		</div>
+		<img src="img/tel.png" alt="" class="tel">
+	</div>
+	<!-- 网页导航栏部分 -->
+	<div class="nav_bac">
+		<div class="nav">
+			<ul>
+				<li class="kind"><a href="##">商品类目</a></li>
+				<li><a href="index1.html">首页</a></li>
+				<li><a href="list.html?女装" id="clickwomen">女装</a></li>
+				<li><a href="list.html?男装" id="clickmen">男装</a></li>
+				<li><a href="list.html?鞋子"  id="clickshoes">鞋子</a></li>
+				<li><a href="list.html?包包">包包</a></li>
+				<li><a href="list.html?饰品">饰品</a></li>
+				<li><a href="list.html">TOP50</a></li>
+				<li><a href="list.html">现货区</a></li>
+				<li><a href="list.html">特卖区</a></li>
+				<li class="center"><img src="img/brand-index.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 网页列表分类部分 -->
+	<div class="list_head">
+		<p class="kind" ><i>商品分类：</i><span id="allkinds"></span></p>
+		<p class="price" id="allprice"><i>商品价格：</i>
+			<a>￥200以下</a><a>￥200-500</a><a>￥500-1000</a><a>￥1000-2000</a><a>￥2000以上</a>
+			<input type="text" class="aprice"> - <input type="text" class="aprice">
+			<button id="pricebut">确定</button>
+		</p>
+		<p class="brand"><i>商品品牌：</i>
+			<select  id="allshop">
+	        </select>
+		</p>
+		<p class="sort"><i>商品排序：</i><a href="#">默认</a><a href="#">价格</a><a href="#">销量</a><a href="#">人气</a></p>
+	</div>
+
+
+	<!-- 网页列表部分 -->
+	<div class="con" id="con">
+		
+		<!-- <dl>
+			<dt>
+			<a href="#"><img src="img/pic1-1.jpg" alt="" /></a>
+			<div id="simg">
+				<img src="img/pic1-1.jpg" alt="" />
+				<img src="img/pic1-1.jpg" alt="" />
+			</div>
+			</dt>
+			<dd>
+				<h3>￥2990.00</h3>
+				<a href="#">OPPO R11s 双卡双待全面屏拍照手机 黑色 全网通(4G RAM+64G ROM)官方标配</a>
+			</dd>
+		</dl> -->
+	</div>
+		<div class="con_foot">
+			<a id="pageFirst"><</a>
+			
+			<a id="pageLast">></a>
+		</div>
+	
+
+
+
+	<!-- 网页尾部 -->
+	<div class="bottom">
+		<div class="left">
+			<p>版权所有：will international</p>
+			<p>Copyright © 2015 </p>
+			<em>|</em>
+			<img src="img/upyun.png" alt="">
+			<p>站长统计</p>
+		</div>
+		<p>
+			<a href="##">关于我们</a>
+			<a href="##">购物向导</a>
+			<a href="##">退换货政策</a>
+			<a href="##">配送相关</a>
+			<a href="##">常见问题</a>
+			<a href="##">批发加盟</a>
+		</p>
+	</div>
+</body>
+</html>
+<script src="js/ajax.js"></script>
+<script src="js/common.js"></script>
+<script src="js/list.js"></script>

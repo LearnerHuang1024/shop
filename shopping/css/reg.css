@@ -1,0 +1,70 @@
+.reg{
+	margin:90px auto;
+	width:1100px;
+	overflow: hidden;
+}
+.reg>.left{
+	float:left;
+	width:400px;
+	margin:0 30px;
+	margin-left: 100px;
+	color: black;
+	font-size: 12px;
+}
+.reg>.left>h3{
+	font-size: 15px;
+	color: #666;
+}
+.reg>.left>p{
+	height: 32px;
+	line-height: 32px;
+	margin-top: 13px;
+	overflow: hidden;
+}
+.reg>.left>p>span{
+	width: 60px;
+	text-align: right;
+	float: left;
+}
+.reg>.left>p>input{
+	height: 26px;
+	width: 195px;
+	float: left;
+	outline: none;
+	padding-left: 5px;
+	font-size: 14px;
+}
+.reg>.left>p>em{
+	display: block;
+	float: left;
+	font-size: 15px;
+	border: 1px solid pink;
+	margin-left: 5px;
+	width: 70px;
+	height: 28px;
+}
+.reg>.left>p>i{
+	float: left;
+	font-style: normal;
+	margin-left: 5px;
+	display: none;
+}
+.reg>.left>button{
+	margin-left: 100px;
+	color: white;
+	border: 1px solid #0082be;
+	background-color: #00a3ef;
+	width: 100px;
+	height: 30px;
+	border-radius: 5%;
+}
+.reg>.left>button:hover{
+	background-color: #0090e1;
+}
+.reg>.left>p>#randomCode{
+	width: 100px;
+}
+.reg>.right{
+	float: left;
+	margin-top: 30px;
+}
